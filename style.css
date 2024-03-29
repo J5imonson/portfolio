@@ -1,5 +1,6 @@
 h1{
   color: antiquewhite;
+  padding-left: 20px;
 }
 
 header{
@@ -14,21 +15,40 @@ nav{
   justify-content: space-around;
   width:30%;
   background-color: yellow;
+  border: 2px solid black;
 }
 
 div{
+  display: flex;
+  align-items: space-evenly;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
   background-color: blueviolet;
 }
-.myFace{
+
+.myFace{ 
   position: relative;
+  /* margin-left: auto;  */
   width: 260px;
   height: 300px;
-}
-
+} 
+ 
 section{
   display: flex;
-  background-color: orangered;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
+
+.proj1, .proj2, .proj3{
+  width: 200px;
+  height: 200px;
+}
+
+.proj1{
+  width: 500px;
+  height: 500px;
+}
+
 
 aside{
   background-color: aqua;
