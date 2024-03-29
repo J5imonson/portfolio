@@ -20,10 +20,12 @@ nav{
 
 div{
   display: flex;
-  align-items: space-evenly;
-  justify-content: space-evenly;
-  flex-direction: row-reverse;
-  background-color: blueviolet;
+  align-items: space-between;
+  justify-content: space-between;
+  padding: 20px;
+  /* flex-direction: row-reverse; */
+  flex-wrap: wrap;
+  /* background-color: blueviolet; */
 }
 
 .myFace{ 
@@ -40,13 +42,33 @@ section{
 }
 
 .proj1, .proj2, .proj3{
+  display: flex;
   width: 200px;
   height: 200px;
 }
 
 .proj1{
-  width: 500px;
-  height: 500px;
+  /* width: 400px; */
+  /* height: 400px; */
+  /* text-align: center; */
+  flex: 0 0 800px;
+}
+.proj2{
+  position: relative;
+  margin-top: 20px;
+  align-items: flex-end;
+}
+
+.proj3{
+  position: relative;
+  margin-top: 20px;
+}
+
+.centerText{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
