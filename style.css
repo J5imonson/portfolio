@@ -6,10 +6,13 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: rgb(166, 88, 88);
 }
 
 .container {
   display: flex;
+  padding: 1%;
+  background-color: antiquewhite;
 }
 
 .work {
@@ -21,7 +24,6 @@ nav{
   display: flex;
   justify-content: space-around;
   width:30%; 
-  text-decoration: none;
 }
 
 .myFace{ 
@@ -31,23 +33,43 @@ nav{
 } 
 
 .mainImage {
-  max-width: 90%;
-  max-height: 90%;
-}
-
-.proj2{
   max-width: 80%;
   max-height: 80%;
+}
+
+h4{
+  position: absolute;
+  color: whitesmoke;
+  padding: 2%;
+}
+.proj2{
+  max-width: 70%;
+  max-height: 70%;
 }
 
 .proj3{
-  max-width: 80%;
-  max-height: 80%;
+  max-width: 70%;
+  max-height: 70%;
+}
+
+aside{
+  background-color: rgb(166, 88, 88);
+  padding: 1%;
 }
 
 
-/* @media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
   nav {
+    flex-direction: column;
     text-align: center;
   }
-} */
+
+  header{
+    background-color: rgb(154, 154, 231);
+  }
+
+  aside{
+    background-color: rgb(154, 154, 231);
+  }
+  }
+
